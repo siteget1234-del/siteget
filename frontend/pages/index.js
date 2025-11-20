@@ -81,8 +81,7 @@ export default function Home() {
 
   return (
     <>
-      <Head>
-        <link rel="icon" href="/favicon.png" />
+      <Head>        
         <title>SiteGet — Premium Modern Websites</title>
         <meta name="description" content="Get your modern, responsive website in just ₹500. Built with Next.js and Tailwind CSS. Winter offer - save ₹1500!" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
