@@ -152,13 +152,7 @@ export default function Home() {
             
    <div className="features-grid">
               {features.map((feature, index) => (
-                {/*<div key={index} className="feature-card" data-testid={`feature-card-${index}`}>
-                  <div className="feature-icon">
-                    <i className={feature.icon}></i>
-                  </div>
-                  <h3>{feature.title}</h3>
-                  <p>{feature.description}</p>
-                </div>*/}
+                
 
                 <div key={index} className="feature-card" style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
   <i className={feature.icon} style={{ fontSize: '2.5rem', color: '#3b82f6' }}></i>
