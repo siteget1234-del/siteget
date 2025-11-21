@@ -157,7 +157,7 @@ export default function Home() {
                 <div key={index} className="feature-card" style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
   <i className={feature.icon} style={{ fontSize: '2.5rem', color: '#3b82f6' }}></i>
   <div>
-    <h3 style={{ margin: '0 0 0.5rem 0' }}>{feature.title}</h3>
+    <h3 style={{ margin: '0 0 0.2rem 0' }}>{feature.title}</h3>
     <p style={{ margin: '0' }}>{feature.description}</p>
   </div>
 </div>
