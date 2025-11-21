@@ -247,7 +247,7 @@ export default function Home() {
               >
                 <i className="fa-brands fa-whatsapp"></i>
                 <div>
-                  <div>WhatsApp pe Connect Karein</div>
+                  <div>Book now</div>
                   <div className="phone-number">+91 7385311748</div>
                 </div>
               </a>
