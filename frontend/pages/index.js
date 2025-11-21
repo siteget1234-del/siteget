@@ -150,7 +150,7 @@ export default function Home() {
             <h2 className="section-title">Kyun Choose Karein SiteGet?</h2>
             <p className="section-subtitle">Modern technology, affordable price, fast delivery</p>
             
-            <div className="features-grid">
+  {/* <div className="features-grid">
               {features.map((feature, index) => (
                 <div key={index} className="feature-card" data-testid={`feature-card-${index}`}>
                   <div className="feature-icon">
@@ -161,7 +161,27 @@ export default function Home() {
                 </div>
                             
               ))}
-            </div>
+            </div>*/}
+
+              <div className="features-grid">
+  {features.map((feature, index) => (
+    <div 
+      key={index} 
+      className="feature-card-horizontal" 
+      data-testid={`feature-card-${index}`}
+    >
+      <div className="feature-icon-left">
+        <i className={feature.icon}></i>
+      </div>
+      <div className="feature-text">
+        <h3>{feature.title}</h3>
+        <p>{feature.description}</p>
+      </div>
+    </div>
+  ))}
+</div>
+
+              
           </div>
         </section>
 
