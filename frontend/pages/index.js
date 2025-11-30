@@ -15,7 +15,7 @@ export default function Home() {
   const faqs = [
     {
       question: 'Sirf ₹999 mein? Itna sasta kyun?',
-      answer: 'Winter special offer hai! Regular price ₹2,000 hai, lekin hum chahte hain ki har business online aaye. Isliye limited time ke liye ₹500 mein quality website de rahe hain.'
+      answer: 'Winter special offer hai! Regular price ₹3,000 hai, lekin hum chahte hain ki har business online aaye. Isliye limited time ke liye ₹999 mein quality website de rahe hain.'
     },
     {
       question: 'Next.js aur Tailwind kyun? Plain HTML nahi?',
@@ -83,7 +83,7 @@ export default function Home() {
     <>
       <Head>        
         <title>SiteGet — Premium Modern Websites</title>
-        <meta name="description" content="Get your modern, responsive website in just ₹500. Built with Next.js and Tailwind CSS. Winter offer - save ₹1500!" />
+        <meta name="description" content="Get your modern, responsive website in just ₹999. Built with Next.js and Tailwind CSS. Winter offer - save ₹1500!" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
@@ -100,13 +100,13 @@ export default function Home() {
               
               <h1 className="hero-title" data-testid="hero-title">
                 Modern Website
-                <span className="gradient-text"> Sirf ₹500 </span>
+                <span className="gradient-text"> Sirf ₹999 </span>
                 Mein
               </h1>
               
               <p className="hero-subtitle" data-testid="hero-subtitle">
                 Next.js + Tailwind se bani professional website.<br />
-                <span className="highlight-text">Regular ₹2,000 - Ab sirf ₹500!</span>
+                <span className="highlight-text">Regular ₹3,000 - Ab sirf ₹999!</span>
               </p>
 
               <div className="hero-features" data-testid="hero-features">
@@ -193,7 +193,7 @@ export default function Home() {
                   </div>
                   <div className="price-cell">
                     <span className={comp.highlight ? 'price-highlight' : ''}>{comp.price}</span>
-                    {comp.highlight && <span className="save-badge">Save ₹1,500</span>}
+                    {comp.highlight && <span className="save-badge">Save ₹2,000</span>}
                   </div>
                   <div>{comp.time}</div>
                   <div className="tech-cell">
