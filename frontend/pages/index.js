@@ -14,7 +14,7 @@ export default function Home() {
 
   const faqs = [
     {
-      question: 'Sirf ₹500 mein? Itna sasta kyun?',
+      question: 'Sirf ₹999 mein? Itna sasta kyun?',
       answer: 'Winter special offer hai! Regular price ₹2,000 hai, lekin hum chahte hain ki har business online aaye. Isliye limited time ke liye ₹500 mein quality website de rahe hain.'
     },
     {
@@ -43,7 +43,7 @@ export default function Home() {
     { name: 'Local Agencies', price: '₹8,000 - ₹15,000', time: '15-30 days', tech: 'Old PHP/HTML' },
     { name: 'Freelance Market', price: '₹5,000 - ₹10,000', time: '10-20 days', tech: 'Mixed' },
     { name: 'Big Companies', price: '₹20,000+', time: '30+ days', tech: 'Various' },
-    { name: 'SiteGet', price: '₹500', time: '3-5 days', tech: 'Next.js + Tailwind', highlight: true }
+    { name: 'SiteGet', price: '₹999', time: '3-5 days', tech: 'Next.js + Tailwind', highlight: true }
   ]
 
   const features = [
